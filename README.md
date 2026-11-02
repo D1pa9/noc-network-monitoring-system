@@ -5,7 +5,13 @@ A full-stack Network Operations Center (NOC) simulation platform designed to mon
 ![Dashboard Preview](docs/screenshots/dashboard.png)
 *(The Overview Dashboard: Real-time KPIs, ICMP monitoring, and active incidents)*
 
-*Figure 1: NEXUS NOC dashboard displaying network health, monitoring metrics, and active incidents.*
+### Incident Management
+![Incident Management](docs/screenshots/incidents.png)
+*(Managing the lifecycle of a network outage: Open → Investigating → Resolved, with audit trails)*
+
+### SLA & Reporting
+![SLA Reporting](docs/screenshots/sla.png)
+*(Tracking Mean Time To Acknowledge, Mean Time To Resolve, and exporting operational reports)*
 
 ---
 
@@ -179,7 +185,9 @@ nexus-noc/
 │
 ├── docs/
 │   └── screenshots/
-│       └── dashboard.png
+│       ├── dashboard.png
+│       ├── incidents.png
+│       └── sla.png
 │
 ├── .gitignore
 └── README.md
@@ -203,12 +211,10 @@ Ensure the following software is installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/nexus-noc.git
+git clone https://github.com/D1p9/noc-network-monitoring-system.git
 
-cd nexus-noc
+cd noc-network-monitoring-system
 ```
-
-Replace `YOUR-USERNAME` with your GitHub username.
 
 ### Step 2: Configure the Backend
 
@@ -447,8 +453,7 @@ It represents a simplified enterprise Network Operations Center environment and 
 
 **Project:** NEXUS NOC — Network Operations Center Platform
 
-**Repository:** `https://github.com/YOUR-USERNAME/nexus-noc`
-
+**Repository:** `https://github.com/D1p9/noc-network-monitoring-system`
 ---
 
 *Built to demonstrate practical networking, monitoring automation, and full-stack development skills.*
