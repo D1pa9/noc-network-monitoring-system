@@ -211,7 +211,7 @@ Ensure the following software is installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/D1p9/noc-network-monitoring-system.git
+git clone https://github.com/D1pa9/noc-network-monitoring-system.git
 
 cd noc-network-monitoring-system
 ```
@@ -453,7 +453,7 @@ It represents a simplified enterprise Network Operations Center environment and 
 
 **Project:** NEXUS NOC — Network Operations Center Platform
 
-**Repository:** `https://github.com/D1p9/noc-network-monitoring-system`
+**Repository:** `https://github.com/D1pa9/noc-network-monitoring-system`
 ---
 
 *Built to demonstrate practical networking, monitoring automation, and full-stack development skills.*
